@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+	<test name="test1" group-by-instances="false">
+		<parameter name="deviceName" value="CHROME1" />
+		 <parameter name="network" value="wifi" />
+		<groups>
+			<run>
+				<include name="sanity" />
+				<include name="regression" />
+			</run>
+		</groups>
+		<classes>
+<!--			<class name="com.testbuddy.ui.test.WalletHubTestClass" />-->
+			<class name="com.testbuddy.ui.test.WalletHubTestClass2" />
+		</classes>
+	</test>
+</suite>

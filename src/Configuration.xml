@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selenium>
+	<common>
+		<implicitWait>60000</implicitWait>
+		<version>VER_NOV_2017</version>	
+		<env>STAGING</env>
+		<envFilePath>/Storage/Environments/Environments.xml</envFilePath>
+		<reportColor>RED</reportColor>
+		<orgName>TestBuddyHub</orgName>
+		<autoDetectAndroidDevices>true</autoDetectAndroidDevices>
+		<autoDetectIOSDevices>false</autoDetectIOSDevices>
+		<restAPIFolder>/Storage/RestAPI/</restAPIFolder>
+		<appsFolder>/resources/apps/</appsFolder>
+		<screenshotsFolder>/resources/Screenshots/</screenshotsFolder>
+		<perlScriptPath>/resources/PerlScripts/</perlScriptPath>
+		<retryCount>0</retryCount>
+		<takeScreenshot>true</takeScreenshot>
+		<accessKey>AKIAI4K4WCGDYHNMOELA</accessKey>
+		<secretKey>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</secretKey>
+		<browserTest>true</browserTest>
+	    <platformName>Android</platformName>
+	    <fullReset>false</fullReset>
+	    <autoLaunch>true</autoLaunch>
+	    <newCommandTimeout>200000</newCommandTimeout>
+	    <relativeDeviceConfigurationPath>/src/DeviceConfiguration.xml</relativeDeviceConfigurationPath>
+	    <relativeModuleOwnerPropertiesPath>/src/ModuleOwners.properties</relativeModuleOwnerPropertiesPath>
+	    <emailNotification>false</emailNotification>
+   		<suiteTo>arunrajput1987@gmail.com;</suiteTo>
+	    <classTo>arunrajput1987@gmail.com;</classTo>
+	    <attachSSInEmail>false</attachSSInEmail>
+	    <zipping>false</zipping>
+	    <appVersion>TBH.0</appVersion>
+	    <methodHandleUnwantedPopups>com.app.tbhframework.common.SetBrowserHeader.handlePopups</methodHandleUnwantedPopups>
+	</common>
+	<api1>
+	    <testSet>SeleniumReport</testSet>			   
+	</api1>
+	<chrome1>
+	 <chrome_extension_file_path>/resources/Extensions/jifpbeccnghkjeaalbbjmodiffmgedin.crx</chrome_extension_file_path>
+		 <!--  <preExecution>com.app.tbhframework.common.SetBrowserHeader.addHeaders</preExecution> -->
+		<testSet>SeleniumReport</testSet>
+	</chrome1>
+	<android1>
+		<platformName>Android</platformName>
+	    <fullReset>false</fullReset>
+	    <autoLaunch>true</autoLaunch>
+	    <newCommandTimeout>200000</newCommandTimeout>
+	    <deviceName>HTC</deviceName>
+	    <chromeDriverPort>9515</chromeDriverPort>
+		<ip>http://0.0.0.0:4723/wd/hub</ip>
+		<testSet>SeleniumReport</testSet>
+	</android1>
+</selenium>

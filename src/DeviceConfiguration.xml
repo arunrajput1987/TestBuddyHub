@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<udid_93d39459>
+        <msisdn>9971512191</msisdn>
+		<deviceBasedUid></deviceBasedUid>
+		<msisdnBasedUid></msisdnBasedUid>
+		<deviceType>Micromax</deviceType>
+		<profileName>TestingDevice</profileName>
+    </udid_93d39459>
+    <udid_c794e6b5>
+        <msisdn>8826395569</msisdn>
+		<deviceBasedUid>OgI83Oz2qaImhDuh6RCfLoe0ocY2</deviceBasedUid>
+		<msisdnBasedUid>-m7BsUM8h1-uXkI0N0</msisdnBasedUid>
+		<deviceType>Lenovo</deviceType>
+		<profileName>TestingDevice</profileName>
+    </udid_c794e6b5>
+</configuration>

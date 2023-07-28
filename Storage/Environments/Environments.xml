@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ENV>
+    <STAGING>
+        <VER_NOV_2017>
+        	<DT_APP_HOSTNAME>10.5.252.25</DT_APP_HOSTNAME>
+            <DT_APP_PORT>8080</DT_APP_PORT>
+        	<DT_APP_URL>http://10.5.252.25:8080/DT2/dtApp/#/</DT_APP_URL>
+        	<DT_APP_REDIS_HOSTNAME>10.1.2.222</DT_APP_REDIS_HOSTNAME>
+            <DT_APP_REDIS_PORT>6379</DT_APP_REDIS_PORT>
+            <API_AUTH_BASE_HOSTNAME>10.5.252.25</API_AUTH_BASE_HOSTNAME>
+            <API_AUTH_BASE_PORT>7005</API_AUTH_BASE_PORT>
+            <API_AUTH_GRANT_TYPE>password</API_AUTH_GRANT_TYPE>
+            <API_AUTH_CLIENT_ID>dt</API_AUTH_CLIENT_ID>
+			<appPackage>com.testbuddy.dtapp.test</appPackage>
+        </VER_NOV_2017>
+    </STAGING>
+    <QA>
+        <VER_NOV_2017>
+        	<DT_APP_HOSTNAME>10.5.252.25</DT_APP_HOSTNAME>
+            <DT_APP_PORT>8080</DT_APP_PORT>
+        	<DT_APP_URL>http://10.5.252.25:8080/DT2/dtApp/#/</DT_APP_URL>
+        	<DT_APP_REDIS_HOSTNAME>10.1.2.222</DT_APP_REDIS_HOSTNAME>
+            <DT_APP_REDIS_PORT>6379</DT_APP_REDIS_PORT>
+            <API_AUTH_BASE_HOSTNAME>10.5.252.25</API_AUTH_BASE_HOSTNAME>
+            <API_AUTH_BASE_PORT>7005</API_AUTH_BASE_PORT>
+            <API_AUTH_GRANT_TYPE>password</API_AUTH_GRANT_TYPE>
+            <API_AUTH_CLIENT_ID>dt</API_AUTH_CLIENT_ID>
+			<appPackage>com.testbuddy.dtapp.test</appPackage>
+        </VER_NOV_2017>
+    </QA>
+    <PROD>
+        <VER_NOV_2017>
+        	<DT_APP_HOSTNAME>10.5.252.25</DT_APP_HOSTNAME>
+            <DT_APP_PORT>8080</DT_APP_PORT>
+        	<DT_APP_URL>http://10.5.252.25:8080/DT2/dtApp/#/</DT_APP_URL>
+        	<DT_APP_REDIS_HOSTNAME>10.1.2.222</DT_APP_REDIS_HOSTNAME>
+            <DT_APP_REDIS_PORT>6379</DT_APP_REDIS_PORT>
+            <API_AUTH_BASE_HOSTNAME>10.5.252.25</API_AUTH_BASE_HOSTNAME>
+            <API_AUTH_BASE_PORT>7005</API_AUTH_BASE_PORT>
+            <API_AUTH_GRANT_TYPE>password</API_AUTH_GRANT_TYPE>
+            <API_AUTH_CLIENT_ID>dt</API_AUTH_CLIENT_ID>
+			<appPackage>com.testbuddy.dtapp.test</appPackage>
+        </VER_NOV_2017>
+    </PROD>
+</ENV>

@@ -1,0 +1,23 @@
+{
+ "data": {"msg": {
+  "ac": 2,
+  "acncl": "Cancel",
+  "action": [1],
+  "ao": 2,
+  "aok": "Ok",
+  "attl": "Navigate to about us",
+  "id": "srch_1450442160503",
+  "img": "http://s3-ap-southeast-1.amazonaws.com/bsbcms/music/shgdh.png",
+  "msg": "I navigate to about us screen ID 1",
+  "tgt": {
+   "meta": {
+    "id": "srch_1404393019358",
+    "item_type": "PACKAGE",
+    "title": "Home",
+    "url": ""
+   },
+   "scr": 1
+  }
+ }},
+ "registration_ids": ["APA91bES2WvgOcTnZwLa0Kn7OlgaGQfMLJXxL11oWl-7VDuTBZtJErQOeIPzq-wTTkVN7mtoy4pN1PmkDLvuay5f_w_qT571bfQ1f0_l92fsellEG8cIw83JOs67VeKvQc6cqxycXFQh"]
+}

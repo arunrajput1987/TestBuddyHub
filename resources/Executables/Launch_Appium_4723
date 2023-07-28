@@ -1,0 +1,2 @@
+/Applications/Appium.app/Contents/Resources/node/bin/node /Applications/Appium.app/Contents/Resources/node_modules/appium/bin/appium.js -p 4723 -bp 2251 --chromedriver-port 9515 --command-timeout 3600 --session-override
+
